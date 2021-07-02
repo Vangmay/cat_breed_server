@@ -1,6 +1,4 @@
-opencv-python==4.5.2.54
 opencv-python-headless==4.2.0.32
-keras_nightly==2.5.0.dev2021032900
 numpy==1.19.5
 Flask==1.1.2
 tensorflow==2.5.0
