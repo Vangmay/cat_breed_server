@@ -3,6 +3,5 @@ opencv-python-headless==4.2.0.32
 keras_nightly==2.5.0.dev2021032900
 numpy==1.19.5
 Flask==1.1.2
-keras==2.4.3
 tensorflow==2.5.0
 gunicorn==20.1.0
