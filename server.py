@@ -11,8 +11,7 @@ def classify_cat():
 
     response.headers.add('Access-Control-Allow-Origin','*')
     return response
-
+impp.load_stuff()
 if __name__ == '__main__':
     print('wow')
-    impp.load_stuff()
     app.run()
