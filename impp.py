@@ -94,7 +94,7 @@ def send_predictions(b64):
         #prediction = np.array(prediction)
         #prediction = prediction.reshape(-1)
         result.append(class_number_to_name(prediction[0]))
-        return ('The cat looks like a ', result)
+        return ('The cat looks like a', result)
     else:
         return('Kindly submit a photo in which both eyes and the whole body of the cat is clearly visible')    
 
