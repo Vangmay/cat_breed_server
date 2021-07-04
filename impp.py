@@ -11,7 +11,7 @@ import json
 
 def load_stuff():
     global model
-    model = keras.models.load_model('./model/model.h5')
+    model = keras.models.load_model('./model/model')
     global class_name_to_number
     global _class_number_to_name
     with open ('./model/class_dictionary.json','r') as f:
